@@ -1,0 +1,19 @@
+{
+  "name": "rough_maze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build -d docs --public-url https://pardo.github.io/snakeart/ index.html",
+    "serve": "parcel serve --no-autoinstall index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.9.7",
+    "peerjs": "^0.3.16",
+    "rainbowvis.js": "^1.0.1",
+    "roughjs": "^2.2.5",
+    "standard": "^11.0.1"
+  }
+}
